@@ -200,7 +200,7 @@
 
                             if($wrong > 0)
                             {
-                                echo "<img src = \"images/" . $wrong . ".jpg\" />";
+                                echo "<img src = \"images/" . $wrong . ".jpg\" />"; //Builds the link for the snowman image. Takes the base nae and adds the number of wrong guesses to it to match my naming structure.
                             }
                         }
 
