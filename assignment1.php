@@ -49,7 +49,10 @@
 
     /**
      * would dynamically create the players for use assuming they are playing against each other with separate wrong counts
+     * These lines are better left ignored.
      */
+     
+    /*
     for($i = 0; $i < $numOfPlayers; $i++)
     {
         array_push($playerArray, array(
@@ -58,6 +61,7 @@
             "wrongAnswers" => 0
         ));
     }
+    */
 	
     //var_dump($playerArray[0]["name"]);    //This handy little function allows you to see everything that is in the variable passed through it.
 	                                        //This will allow you to look at almost every variable type, and is most useful for debugging arrays.
